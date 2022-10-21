@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+.benefits-bg {
+  
+  margin: 10px;
+  
+
+}
+.align-benefits-head{
+
+margin-top: 50px;
+margin-bottom: 50px;
+padding: 20px;
+}
+.benefits-head {
+    color: #20a997;
+    font-size: 1.3em;
+    letter-spacing: .3em ;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+}
+.lorem-description{
+    font-family: sans-serif;
+    color: #383838;
+    font-size: 1.9em;
+    line-height: 1.62;
+   
+   
+}
+.benefits-description{
+    color: #2b3238;
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.benefits-cards-container {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+ 
+}
+.card {
+  padding: 40px;
+  margin: 10px;
+
+}
+
+@media (min-width: 320px) {// mobile
+  
+  .card {
+    width: 90%;
+  }
+  .benefits-description{
+    font-size: 1.9em;
+  }
+  .lorem-description{
+    font-size: 1.2em;
+   
+  }
+}
+@media (min-width: 768px) {// tab
+  
+  .card {
+    width: 40%;
+  }
+}
+@media (min-width: 1024px) { //laptop
+  .card {
+    width: 22%;
+  }
+  .lorem-description{
+    margin-top: 30px;
+  }
+}
+.icon{
+    font-size: 4em;
+    color:  #a1ce55;
+}
+.benefits-item{
+    font-size: 1.5em;
+    font-weight: bold;
+}

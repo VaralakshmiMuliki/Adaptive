@@ -1,0 +1,40 @@
+.cards-container {
+  border: 2px solid #3c4048;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+}
+.normal-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.normal-card {
+  border: 2px solid #3c4048;
+  background-color: #d8d9cf;
+  padding: 30px;
+  margin: 10px;
+}
+@media (min-width: 320px) {
+  // mobile
+
+  .normal-card {
+    width: 90%;
+  }
+}
+@media (min-width: 768px) {
+  // tab
+
+  .normal-card {
+    width: 90%;
+    height: 30%;
+  }
+}
+@media (min-width: 1024px) {
+  //laptop
+  .normal-card {
+    width: 30%;
+  }
+}
